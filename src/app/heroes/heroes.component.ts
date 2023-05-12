@@ -10,7 +10,7 @@ import { Hero } from '../hero';
 })
 export class HeroesComponent implements OnInit {
   // heroes = HEROES;
-  heroes?: Hero[];
+  heroes?: Hero[] = HEROES;
   selectedHero?: Hero;
 
   constructor() { }
